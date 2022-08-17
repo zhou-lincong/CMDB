@@ -3,7 +3,6 @@ module github.com/zhou-lincong/CMDB
 go 1.18
 
 require (
-github.com/zhou-lincong/keyauth v0.1.0
 	github.com/BurntSushi/toml v1.1.0
 	github.com/caarlos0/env/v6 v6.9.2
 	github.com/emicklei/go-restful-openapi v1.4.1
