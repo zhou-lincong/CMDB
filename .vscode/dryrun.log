@@ -1,0 +1,14 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+'grep' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+'grep' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+'cut' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+fatal: not a git repository (or any of the parent directories): .git
+
+fatal: not a git repository (or any of the parent directories): .git
+

@@ -1,0 +1,480 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.82.90
+# Built for i686-pc-mingw32
+# Copyright (C) 1988-2012 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Sun Jul 10 18:51:20 2022
+
+# Variables
+
+# environment
+VSCODE_GIT_ASKPASS_MAIN = e:\ruanjian\vscode\Microsoft VS Code\resources\app\extensions\git\dist\askpass-main.js
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = Rrqp
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $ 
+(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := e:/goproject/CMDB
+# default
+SHELL := E:/ruanjian/git/Git/usr/bin/sh.exe
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"c9280508cf500dcd9c4c87fe2a1b08e9.zh-cn","_translationsConfigFile":"C:\\Users\\zlc\\AppData\\Roaming\\Code\\clp\\c9280508cf500dcd9c4c87fe2a1b08e9.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\zlc\\AppData\\Roaming\\Code\\clp\\c9280508cf500dcd9c4c87fe2a1b08e9.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\zlc\\AppData\\Roaming\\Code\\clp\\c9280508cf500dcd9c4c87fe2a1b08e9.zh-cn\\92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9","_corruptedFile":"C:\\Users\\zlc\\AppData\\Roaming\\Code\\clp\\c9280508cf500dcd9c4c87fe2a1b08e9.zh-cn\\corrupted.info","_languagePackSupport":true}
+# environment
+_ = E:/ruanjian/vscode/Microsoft VS Code/Code.exe
+# environment
+ONEDRIVE = C:\Users\zlc\OneDrive
+# makefile (from 'makefile', line 4)
+IMAGE_PREFIX := "github.com/zhou-lincong/CMDB"
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+TMP = C:\Users\zlc\AppData\Local\Temp
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+PROGRAMW6432 = C:\Program Files
+# makefile (from 'makefile', line 11)
+MCUBE_VERSION := v1.8.8
+# environment
+PROGRAMDATA = C:\ProgramData
+# makefile (from 'makefile', line 15)
+BUILD_COMMIT := 29d95f1c5d178579bcdd1e246f783eb6bb7eefaa
+# environment
+VSCODE_CWD = E:\goproject\CMDB
+# environment
+GOPROXY = https://goproxy.cn,direct
+# environment
+PATH = E:\ruanjian\go\bin;E:\ruanjian\git\Git\mingw64\bin;E:\ruanjian\git\Git\usr\bin;C:\Users\zlc\bin;C:\Python310\Scripts;C:\Python310;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;E:\ruanjian\git\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;E:\ruanjian\mingw\bin;E:\ruanjian\nodejs;C:\ProgramData\chocolatey\bin;E:\ruanjian\gopath\bin;C:\Users\zlc\AppData\Local\Microsoft\WindowsApps;C:\Users\zlc\go\bin;E:\ruanjian\vscode\Microsoft VS Code\bin;E:\ruanjian\mingw\bin;C:\Users\zlc\AppData\Roaming\npm
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+LC_ALL = C
+# environment
+CHOCOLATEYLASTPATHUPDATE = 133005969249588626
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\zlc
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+EXEPATH = E:\ruanjian\git\Git\bin
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+GOPATH = E:\ruanjian\gopath
+# makefile (from 'makefile', line 7)
+PKG_LIST := github.com/zhou-lincong/CMDB github.com/zhou-lincong/CMDB/apps/all github.com/zhou-lincong/CMDB/apps/book github.com/zhou-lincong/CMDB/apps/book/api github.com/zhou-lincong/CMDB/apps/book/impl github.com/zhou-lincong/CMDB/apps/host github.com/zhou-lincong/CMDB/apps/host/api github.com/zhou-lincong/CMDB/apps/host/impl github.com/zhou-lincong/CMDB/apps/resource github.com/zhou-lincong/CMDB/apps/resource/api github.com/zhou-lincong/CMDB/apps/resource/impl github.com/zhou-lincong/CMDB/apps/secret github.com/zhou-lincong/CMDB/apps/secret/api github.com/zhou-lincong/CMDB/apps/secret/impl github.com/zhou-lincong/CMDB/apps/task github.com/zhou-lincong/CMDB/apps/task/api github.com/zhou-lincong/CMDB/apps/task/impl github.com/zhou-lincong/CMDB/client github.com/zhou-lincong/CMDB/cmd github.com/zhou-lincong/CMDB/conf github.com/zhou-lincong/CMDB/protocol github.com/zhou-lincong/CMDB/provider/txyun/connectivity github.com/zhou-lincong/CMDB/provider/txyun/cvm github.com/zhou-lincong/CMDB/swagger github.com/zhou-lincong/CMDB/utils github.com/zhou-lincong/CMDB/version
+# environment
+PLINK_PROTOCOL = ssh
+# environment
+NUMBER_OF_PROCESSORS = 4
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-e 
+xpansion else-if shortest-stem undefine oneshell archives jobserver
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11948_CEBDQCWIBHUSOVZH
+# makefile (from 'makefile', line 18)
+VERSION_PATH := ""github.com/zhou-lincong/CMDB"/version"
+# environment
+COMPUTERNAME = DESKTOP-LV8U104
+# environment
+PWD = E:/goproject/CMDB
+# makefile (from 'makefile', line 6)
+MOD_DIR := E:\ruanjian\gopath/pkg/mod
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# makefile (from 'makefile', line 3)
+PKG := "github.com/zhou-lincong/CMDB"
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = zlc
+# environment
+PUBLIC = C:\Users\Public
+# environment
+GOMODCACHE = E:\ruanjian\gopath\pkg\mod
+# environment
+HOME = C:\Users\zlc
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\zlc\AppData\Roaming\Code\CachedData\92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\DESKTOP-LV8U104
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = DESKTOP-LV8U104
+# environment
+MAKELEVEL := 0
+# environment
+VSCODE_GIT_IPC_HANDLE = \\.\pipe\vscode-git-fd29d1326e-sock
+# environment
+COLORTERM = truecolor
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 2
+# default
+MAKE_VERSION := 3.82.90
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from 'makefile', line 14)
+BUILD_BRANCH := master
+# environment
+GOROOT = E:\ruanjian\go
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\zlc\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# environment
+OLDPWD = E:/goproject
+# environment
+VSCODE_GIT_ASKPASS_EXTRA_ARGS = --ms-enable-electron-run-as-node
+# environment
+TERM_PROGRAM = vscode
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 69 Stepping 1, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\bfda2f0d5ed0b7ba6932817ee62b9432-1.69.0-main-sock
+# environment
+VSCODE_GIT_ASKPASS_NODE = E:\ruanjian\vscode\Microsoft VS Code\Code.exe
+# makefile (from 'makefile', line 16)
+BUILD_TIME := 2022-07-10 18:51:20
+# environment
+HOMEPATH = \Users\zlc
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+TERM_PROGRAM_VERSION = 1.69.0
+# environment
+SYSTEMROOT = C:\Windows
+# makefile (from 'makefile', line 17)
+BUILD_GO_VERSION := go1.18.3 windows/amd64
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F 
+ = $(notdir $+)
+# environment
+APPDATA = C:\Users\zlc\AppData\Roaming
+# environment
+TEMP = C:\Users\zlc\AppData\Local\Temp
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# environment
+MSYSTEM = MINGW64
+# environment
+GIT_ASKPASS = e:\ruanjian\vscode\Microsoft VS Code\resources\app\extensions\git\dist\askpass.sh
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'makefile', line 1)
+PROJECT_NAME := "CMDB"
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# automatic
+^F = $(notdir $^)
+# makefile (from 'makefile', line 10)
+MCUBE_MODULE := "github.com/infraboard/mcube"
+# makefile (from 'makefile', line 12)
+MCUBE_PKG_PATH := E:\ruanjian\gopath/pkg/mod/"github.com/infraboard/mcube"@v1.8.8
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 4501
+# makefile (from 'makefile', line 8)
+GO_FILES := ./apps/all/api.go ./apps/all/impl.go ./apps/all/internal.go ./apps/book/api/book.go ./apps/book/api/http.go ./apps/book/app.go ./apps/book/book.pb.go ./apps/book/book_grpc.pb.go ./apps/book/impl/book.go ./apps/book/impl/dao.go ./apps/book/impl/impl.go ./apps/book/impl/sql.go ./apps/host/api/host.go ./apps/host/api/http.go ./apps/host/app.go ./apps/host/host.pb.go ./apps/host/host_enum.pb.go ./apps/host/host_grpc.pb.go ./apps/host/impl/dao.go ./apps/host/impl/host.go ./apps/host/impl/impl.go ./apps/host/impl/sql.go ./apps/resource/api/http.go ./apps/resource/api/resource.go ./apps/resource/app.go ./apps/resource/impl/dao.go ./apps/resource/impl/impl.go ./apps/resource/impl/resource.go ./apps/resource/impl/sql.go ./apps/resource/impl/tx.go ./apps/resource/resource.pb.go ./apps/resource/resource_enum.pb.go ./apps/resource/resource_grpc.pb.go ./apps/secret/api/http.go ./apps/secret/api/secret.go ./apps/secret/app.go ./apps/secret/impl/dao.go ./apps/secret/impl/impl.go ./apps/secret/impl/secret.go ./apps/secret/impl/sql.go ./apps/secret/secret.pb.go ./apps/secret/secret_enum.pb.go ./apps/secret/secret_grpc.pb.go ./apps/task/api/http.go ./apps/task/api/task.go ./apps/task/app.go ./apps/task/impl/dao.go ./apps/task/impl/host_sync.go ./apps/task/impl/impl.go ./apps/task/impl/mock.go ./apps/task/impl/sql.go ./apps/task/impl/task.go ./apps/task/task.pb.go ./apps/task/task_enum.pb.go ./apps/task/task_grpc.pb.go ./client/client.go ./client/config.go ./cmd/init.go ./cmd/root.go ./cmd/start.go ./conf/config.go ./conf/load.go ./conf/log.go ./main.go ./protocol/grpc.go ./protocol/http.go ./provider/txyun/connectivity/client.go ./provider/txyun/cvm/operator.go ./provider/txyun/cvm/pagger.go ./provider/txyun/cvm/query.go ./swagger/docs.go ./utils/hash.go ./utils/ptr_value.go ./version/version.go
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+TERM = xterm-256color
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 11948
+# makefile (from 'makefile', line 2)
+MAIN_FILE_PAHT := "main.go"
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-LV8U104
+# variable set hash-table stats:
+# Load=125/1024=12%, Rehash=0, Collisions=20/183=11%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# E:\ruanjian\git\Git\mingw64\bin (key E:/ruanjian/git/Git/mingw64/bin, mtime 1656063590): 109 files, no impossibilities.
+# . (key e:/goproject/CMDB, mtime 1657248115): 23 files, no impossibilities.
+# E:\ruanjian\go\bin (key E:/ruanjian/go/bin, mtime 1657200894): 4 files, no impossibilities.
+# E:\ruanjian\git\Git\usr\bin (key E:/ruanjian/git/Git/usr/bin, mtime 1656075696): 315 files, no impossibilities so far.
+
+# 451 files, no impossibilities in 4 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all: build
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+
+.PHONY: all dep lint vet test test-coverage build clean
+#  Implicit rule search  
+has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test-coverage:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 37):
+	@go test -short -coverprofile cover.out -covermode=atomic ${PKG_LIST} 
+	@cat cover.out >> coverage.txt
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 34):
+	@go test -short ${PKG_LIST}
+	
+
+gen:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 71):
+	@protoc -I=. -I=common/pb --go_out=. --go_opt=module=${PKG} --go-grpc_out=. --go-grpc_opt=module=${PKG} apps/*/pb/*.proto
+	@go fmt ./...
+	@protoc-go-inject-tag -input=apps/*/*.pb.go
+	@mcube generate enum -p -m apps/*/*.pb.go
+
+dep:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := dep
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'makefile', line 25):
+	@go mod tidy
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 21:51:42
+#  File has been updated.
+#  Successfully updated.
+
+build: dep
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+#  recipe to execute (from 'makefile', line 41):
+	@go build -a -o dist/${OUTPUT_NAME} -ldflags "-s -w" -ldflags "-X '${VERSION_PATH}.GIT_BRANCH=${BUILD_BRANCH}' -X '${VERSION_PATH}.GIT_COMMIT=${BUILD_COMMIT}' -X '${VERSION_PATH}.BUILD_TIME=${BUILD_TIME}' -X '${VERSION_PATH}.GO_VERSION=${BUILD_GO_VERSION}'" ${MAIN_FILE}
+
+vet:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 31):
+	@go vet ${PKG_LIST}
+
+help:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 78):
+	@grep -h -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
+
+pb:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line  
+64):
+	@mkdir -pv common/pb/github.com/infraboard/mcube/pb
+	@cp -r ${MCUBE_PKG_PATH}/pb/* common/pb/github.com/infraboard/mcube/pb
+	@sudo rm -rf common/pb/github.com/infraboard/mcube/pb/*/*.go
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+run: install dep
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 51):
+	@go run main.go start
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 54):
+	@go clean .
+	@rm -f dist/${PROJECT_NAME}
+
+init: dep
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 47):
+	@go run main.go init
+
+linux: dep
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 44):
+	@GOOS=linux GOARCH=amd64 go build -a -o dist/${OUTPUT_NAME} -ldflags "-s -w" -ldflags "-X '${VERSION_PATH}.GIT_BRANCH=${BUILD_BRANCH}' -X '${VERSION_PATH}.GIT_COMMIT=${BUILD_COMMIT}' -X '${VERSION_PATH}.BUILD_TIME=${BUILD_TIME}' -X '${VERSION_PATH}.GO_VERSION=${BUILD_GO_VERSION}'" ${MAIN_FILE}
+
+lint:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 28):
+	@golint -set_exit_status ${PKG_LIST}
+
+install:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 58):
+	@go install github.com/infraboard/mcube/cmd/mcube@latest
+	@go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
+	@go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
+	@go install github.com/favadi/protoc-go-inject-tag@latest
+
+# files hash-table stats:
+# Load=19/1024=2%, Rehash=0, Collisions=0/53=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 448 / storage = 5763 B / avg = 12 B
+# current buf: size = 8174 B / used = 5763 B / count = 448 / avg = 12 B
+
+# strcache performance: lookups = 507 / hit rate = 11%
+# hash-table stats:
+# Load=448/8192=5%, Rehash=0, Collisions=26/507=5%
+# Finished Make data base on Sun Jul 10 18:51:20 2022
+
+ 
